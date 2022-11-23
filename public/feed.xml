@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Zaid Mukaddam]]></title>
+        <description><![CDATA[Zaid Mukaddam]]></description>
+        <link>https://zaid.omg.lol</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 23 Nov 2022 03:49:43 GMT</lastBuildDate>
+        <atom:link href="https://zaid.omg.lol/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Marketing Sucks! Or Does It?]]></title>
+            <description><![CDATA[I have had a somewhat negative mindset towards marketing. It seemed like only sleazy sales people are the ones doing it. This is how I changed my mindset.]]></description>
+            <link>https://zaid.omg.lol/blog/marketing-sucks-or-does-it</link>
+            <guid isPermaLink="true">https://zaid.omg.lol/blog/marketing-sucks-or-does-it</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

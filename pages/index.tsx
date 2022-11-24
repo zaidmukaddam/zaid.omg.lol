@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       <article>
         <div className="mt-10 text-base leading-[26`px] text-[#313233]">
           <p>
-            I&apos;m a indie software developer interested in cyber security,
+            I&apos;m an Indie Software Developer interested in cyber security,
             technical writing, cloud computing, and backend based in India. I
             enjoy visualizing problems and writing code to solve them.
           </p>

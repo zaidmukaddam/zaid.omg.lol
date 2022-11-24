@@ -114,10 +114,10 @@ export default function FeedbackComp({
           <div className="flex items-center gap-1.5">
             <RadioGroupPrimitive.Item
               id={'1'}
-              value={'happy'}
+              value={'love'}
               className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow-500/30 outline-none transition-all duration-300 ease-in-out focus:ring-1 focus:ring-yellow-500 data-state-checked:ring-1 data-state-checked:ring-yellow-500 data-state-checked:grayscale-0 data-state-unchecked:grayscale"
             >
-              <span className="text-lg leading-none">😊</span>
+              <span className="text-lg leading-none">😍</span>
             </RadioGroupPrimitive.Item>
             <RadioGroupPrimitive.Item
               id={'2'}
@@ -128,6 +128,13 @@ export default function FeedbackComp({
             </RadioGroupPrimitive.Item>
             <RadioGroupPrimitive.Item
               id={'3'}
+              value={'boring'}
+              className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow-500/30 outline-none transition-all duration-300 ease-in-out focus:ring-1 focus:ring-yellow-500 data-state-checked:ring-1 data-state-checked:ring-yellow-500 data-state-checked:grayscale-0 data-state-unchecked:grayscale"
+            >
+              <span className="text-lg leading-none">🥱</span>
+            </RadioGroupPrimitive.Item>
+            <RadioGroupPrimitive.Item
+              id={'4'}
               value={'sad'}
               className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow-500/30 outline-none transition-all duration-300 ease-in-out focus:ring-1 focus:ring-yellow-500 data-state-checked:ring-1 data-state-checked:ring-yellow-500 data-state-checked:grayscale-0 data-state-unchecked:grayscale"
             >

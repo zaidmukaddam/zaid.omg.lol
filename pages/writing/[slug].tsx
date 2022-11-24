@@ -7,6 +7,8 @@ import { getFormattedWriting } from '@/lib/getFormattedWriting';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import CodeBlock from '@/components/CodeBlock';
 import Link from '@/components/Link';
+import LinkPreview from '@/components/LinkPreview';
+import LinkPreviewDemo from '@/components/demos/LinkPreviewDemo';
 
 export default function Post({
   writing,
@@ -82,7 +84,7 @@ export default function Post({
                       )}
                     </>
                   ) : (
-                    <Link href={props.href}>{props.children}</Link>
+                    <LinkPreview href={props.href}>{props.children}</LinkPreview>
                   )}
                 </>
               );
@@ -123,6 +125,7 @@ export default function Post({
                 </em>
               );
             },
+            LinkPreviewDemo: LinkPreviewDemo,
           }}
         />
       </article>

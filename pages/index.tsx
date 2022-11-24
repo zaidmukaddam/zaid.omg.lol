@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Link from '../components/Link';
 import Container from '@/layouts/Container';
+import LinkPreview from '@/components/LinkPreview';
+
 
 const Home: NextPage = () => {
   return (
@@ -40,7 +42,7 @@ const Home: NextPage = () => {
               </li>
               <li className="pl-1.5">
                 Created{' '}
-                <Link href="https://adabutbetter.space/">Ada But Better</Link>,
+                <LinkPreview href="https://adabutbetter.space/">Ada But Better</LinkPreview>,
                 which is chatbot using OpenAI&apos;s GPT-3 engine. I&apos;s not
                 the brightest, but it&apos;s definitely smarter than Ada. Never
                 refer to Ada but better as Ada!{' '}

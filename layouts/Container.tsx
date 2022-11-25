@@ -19,8 +19,8 @@ export default function Container(props: {
     date?: string;
   } = {
     title: 'Zaid Mukaddam - Developer, creator.',
-    description: `Web3 Front-end developer, content creator, and an explorer.`,
-    image: 'https://zaid.omg.lol/static/images/banner.png',
+    description: `Indie Software developer, content creator, and an explorer.`,
+    image: 'https://zaid.omg.lol/api/og?title=Zaid%20Mukaddam&summary=Indie%20Software%20developer,%20content%20creator,%20and%20an%20explorer&date=Date.now()',
     keywords:
       'Zaid Mukaddam, Zaid, Mukaddam, Developer, Frontend Master, Frontend Developer, Web Dev, App Developer, Fultter Developer',
     type: 'website',

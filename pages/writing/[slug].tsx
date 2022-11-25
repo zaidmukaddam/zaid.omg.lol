@@ -59,9 +59,9 @@ export default function Post({
             a: (props: any) => {
               return (
                 <>
-                  {props.className || props.href.includes('twitter.com') ? (
+                  {props.className || props.href.includes('twitter.com') || props.href.includes('github.com') ? (
                     <>
-                      {props.href.includes('twitter.com') ? (
+                      {props.href.includes('twitter.com') || props.href.includes('github.com') ? (
                         <>
                           <a
                             className={`${props.className} font-bold`}

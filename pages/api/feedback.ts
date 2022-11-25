@@ -34,7 +34,7 @@ export default async function handler(
     const emailParams = new EmailParams()
       .setFrom(sentFrom)
       .setTo(recipients)
-      .setSubject('Feedback from zaidbuilds.tech')
+      .setSubject('Feedback from zaid.omg.lol')
       .setHtml(
         `<strong>${emoji}</strong> - <span>${feedback}</span> - <span>${route}</span>`
       );

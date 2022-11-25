@@ -10,16 +10,17 @@ const Home: NextPage = () => {
       <article>
         <div className="mt-10 text-base leading-[26`px] text-[#313233]">
           <p>
-            I&apos;m an Indie Software Developer interested in cyber security,
-            technical writing, cloud computing, and backend based in India. I
-            enjoy visualizing problems and writing code to solve them.
+            I&apos;m an Indie Software Developer interested in web development,
+            open source, design, cybersecurity, technical writing and cloud
+            computing based in India. I enjoy visualizing problems
+            and writing code to solve them.
           </p>
           <p className="mt-5">
             I came across computer kinds of stuff in junior college. Taken
             programming more seriously after joining college, worked as a
-            freelance developer, and am pursuing a BTech degree in Cyber
-            Security. Building projects and experimenting with new technologies
-            is what I do in my free time.
+            freelance developer, and I am pursuing a BTech degree in
+            Cyber Security. Building projects and experimenting
+            with new technologies is what I do in my free time.
           </p>
 
           <p className="mt-5">

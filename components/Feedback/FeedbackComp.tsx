@@ -145,7 +145,7 @@ export default function FeedbackComp({
 
         <button
           type="submit"
-          className="flex min-h-[32px] min-w-[84px] items-center justify-center rounded-sm bg-gradient-to-r from-cyan-500 to-blue-500 text-center font-medium leading-none tracking-tight text-bgWhite"
+          className="flex min-h-[32px] min-w-[84px] items-center justify-center rounded-md bg-neutral-900 text-center font-medium leading-none tracking-tight text-bgWhite"
         >
           {status === 'loading' ? <LoadingSpinIcon /> : 'Submit'}
         </button>

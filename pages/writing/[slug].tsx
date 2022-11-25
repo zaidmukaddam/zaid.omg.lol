@@ -2,11 +2,10 @@ import Image from 'next/image';
 import Container from '@/layouts/Container';
 import { allWritings } from 'contentlayer/generated';
 import { useMDXComponent } from 'next-contentlayer/hooks';
-import { formatDate, formatDateFull } from '@/lib/formatDate';
+import { formatDate } from '@/lib/formatDate';
 import { getFormattedWriting } from '@/lib/getFormattedWriting';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import CodeBlock from '@/components/CodeBlock';
-import Link from '@/components/Link';
 import LinkPreview from '@/components/LinkPreview';
 import LinkPreviewDemo from '@/components/demos/LinkPreviewDemo';
 

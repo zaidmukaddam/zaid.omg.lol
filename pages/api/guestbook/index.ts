@@ -42,6 +42,9 @@ export default async function handler(
         email: session?.user?.email as string,
         body,
         created_by: session?.user?.name as string,
+        created_at: new Date().toLocaleTimeString('en-IN', {
+          timeZone: 'Asia/Kolkata',
+        }),
       },
     });
     return res.status(201).json({

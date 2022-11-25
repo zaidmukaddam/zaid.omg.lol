@@ -35,7 +35,6 @@ export default async function handler(
       .setFrom(sentFrom)
       .setTo(recipients)
       .setSubject('Feedback from zaidbuilds.tech')
-      // .setText("Hello world!")
       .setHtml(
         `<strong>${emoji}</strong> - <span>${feedback}</span> - <span>${route}</span>`
       );

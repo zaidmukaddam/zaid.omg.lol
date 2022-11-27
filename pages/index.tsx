@@ -5,7 +5,6 @@ import LinkPreviewDemo from '../components/demos/LinkPreviewDemo';
 import MorePreviewDemo from '@/components/demos/MorePreviewDemo';
 import Link from 'next/link';
 import Step from '@/components/Step';
-import Slogan from '@/components/Slogan';
 
 const Home: NextPage = () => {
   return (
@@ -41,8 +40,6 @@ const Home: NextPage = () => {
           </p>
 
           <MorePreviewDemo />
-
-          <Slogan />
 
           <div className="mt-5 flex items-center justify-center">
             <ul className="list-none space-y-1 pl-6 marker:text-[#5d676a]">

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
-import Link from '../components/Link';
 import Container from '@/layouts/Container';
 import LinkPreview from '@/components/LinkPreview';
+import LinkPreviewDemo from '../components/demos/LinkPreviewDemo';
 
 
 const Home: NextPage = () => {
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
             computing based in India. I enjoy visualizing problems
             and writing code to solve them.
           </p>
+          <LinkPreviewDemo />
           <p className="mt-5">
             I came across computer kinds of stuff in junior college. Taken
             programming more seriously after joining college, worked as a
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
 
           <div className="mt-5">
             <ul className="list-disc space-y-1 pl-6 marker:text-[#5d676a]">
-              <li className="pl-1.5">
+              {/* <li className="pl-1.5">
                 Built a{' '}
                 <Link href="https://play.google.com/store/apps/details?id=com.zaid.ttt">
                   Tic Tac Toe game
@@ -40,7 +41,7 @@ const Home: NextPage = () => {
                 <span className="whitespace-nowrap font-medium leading-none tracking-tight text-[#313233]/70">
                   (cooked!)
                 </span>
-              </li>
+              </li> */}
               <li className="pl-1.5">
                 Created{' '}
                 <LinkPreview href="https://adabutbetter.space/">Ada But Better</LinkPreview>,

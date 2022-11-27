@@ -5,7 +5,7 @@ export default function DemoLayout({
   children,
   className,
   title,
-  demoName
+  demoName,
 }: {
   children: ReactNode;
   className?: string;
@@ -46,7 +46,6 @@ export default function DemoLayout({
           {demoName || `Component's Demo`}
         </span>
       </div>
-      {/* checkout the blog button */}
     </div>
   );
 }

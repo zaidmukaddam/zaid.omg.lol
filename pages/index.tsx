@@ -2,7 +2,8 @@ import type { NextPage } from 'next';
 import Container from '@/layouts/Container';
 import LinkPreview from '@/components/LinkPreview';
 import LinkPreviewDemo from '../components/demos/LinkPreviewDemo';
-
+import MorePreviewDemo from '@/components/demos/MorePreviewDemo';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
             computing based in India. I enjoy visualizing problems
             and writing code to solve them.
           </p>
-          <LinkPreviewDemo />
+          <Link href="/writing/mdx-external-link-previewer" className="flex justify-center mt-8 px-4 py-2 text-white bg-black rounded-md hover:bg-neutral-700">Checkout my Latest Blog →</Link>
           <p className="mt-5">
             I came across computer kinds of stuff in junior college. Taken
             programming more seriously after joining college, worked as a
@@ -24,13 +25,18 @@ const Home: NextPage = () => {
             with new technologies is what I do in my free time.
           </p>
 
+          <LinkPreviewDemo />
+
           <p className="mt-5">
             My goal is to build cool things that make people&apos;s lives easier
             or more interesting—whether that&apos;s through building an app or
             writing code for other people.
           </p>
 
+          <MorePreviewDemo />
+
           <div className="mt-5">
+            <h2 className="text-lg mb-4">Currently worked on</h2>
             <ul className="list-disc space-y-1 pl-6 marker:text-[#5d676a]">
               {/* <li className="pl-1.5">
                 Built a{' '}

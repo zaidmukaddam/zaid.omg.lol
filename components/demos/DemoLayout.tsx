@@ -1,12 +1,15 @@
 import { ReactNode, useEffect, useRef } from 'react';
 import cn from 'clsx';
+import Link from 'next/link';
 
 export default function DemoLayout({
   children,
   className,
+  demoName
 }: {
   children: ReactNode;
   className?: string;
+  demoName?: string;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -39,9 +42,10 @@ export default function DemoLayout({
       </div>
       <div className="mt-4 flex items-center justify-center text-[#313233]">
         <span className="w-full whitespace-nowrap text-center text-sm font-medium italic opacity-60">
-          Component&apos;s Demo
+          {demoName || `Component's Demo`}
         </span>
       </div>
+      {/* checkout the blog button */}
     </div>
   );
 }

@@ -1,14 +1,15 @@
 import { ReactNode, useEffect, useRef } from 'react';
 import cn from 'clsx';
-import Link from 'next/link';
 
 export default function DemoLayout({
   children,
   className,
+  title,
   demoName
 }: {
   children: ReactNode;
   className?: string;
+  title?: string;
   demoName?: string;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);

@@ -4,8 +4,9 @@ import DemoLayout from './DemoLayout';
 export default function LinkPreviewDemo() {
   return (
     <DemoLayout
-        demoName="More Preview Demos"
+        demoName="Cool Stuff"
     >
+      <h1 className="text-4xl font-bold text-center mb-2">Built with 🪶</h1>
       <div
       // center the location on every page
         className="text-sm text-[#5d676a] flex justify-center break-words"
